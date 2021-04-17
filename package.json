@@ -7,7 +7,8 @@
     "ios": "react-native run-ios --simulator=\"Apple TV 4k\"",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "validate": "tsc --noEmit"
   },
   "dependencies": {
     "react": "16.13.1",

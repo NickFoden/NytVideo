@@ -8,19 +8,14 @@ import ReactNative, {
   Text,
 } from 'react-native';
 
-const StatusBar = Platform.isTV ? View : ReactNative.StatusBar;
-
 const App = () => (
-  <>
-    <StatusBar barStyle="dark-content" />
-    <SafeAreaView>
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={styles.scrollView}>
-        <Text>NYT Video </Text>
-      </ScrollView>
-    </SafeAreaView>
-  </>
+  <SafeAreaView>
+    <ScrollView
+      contentInsetAdjustmentBehavior="automatic"
+      style={styles.scrollView}>
+      <Text>NYT Video </Text>
+    </ScrollView>
+  </SafeAreaView>
 );
 
 const styles = StyleSheet.create({
