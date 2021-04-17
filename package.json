@@ -4,15 +4,19 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios --simulator=\"Apple TV 4k\"",
+    "ios": "react-native run-ios --simulator=\"Apple TV\"",
     "start": "react-native start",
+    "restart": "react-native start --reset-cache",
     "test": "jest",
     "lint": "eslint .",
     "validate": "tsc --noEmit"
   },
   "dependencies": {
     "react": "16.13.1",
-    "react-native": "npm:react-native-tvos@0.63.4-0"
+    "react-native": "npm:react-native-tvos@0.63.4-0",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-video": "^2.3.1",
+    "react-native-video-player": "^0.10.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -20,7 +24,6 @@
     "@react-native-community/eslint-config": "^1.1.0",
     "@types/jest": "^26.0.22",
     "@types/react": "^17.0.3",
-    "@types/react-native": "^0.64.2",
     "@types/react-test-renderer": "^17.0.1",
     "babel-jest": "^25.1.0",
     "eslint": "^6.5.1",
