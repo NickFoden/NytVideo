@@ -218,6 +218,8 @@ PODS:
     - React-cxxreact (= 0.63.4-0)
     - React-jsi (= 0.63.4-0)
   - React-jsinspector (0.63.4-0)
+  - react-native-video (2.3.1):
+    - React
   - React-RCTAnimation (0.63.4-0):
     - FBReactNativeSpec (= 0.63.4-0)
     - Folly (= 2020.01.13.00)
@@ -270,6 +272,8 @@ PODS:
     - React-Core (= 0.63.4-0)
     - React-cxxreact (= 0.63.4-0)
     - React-jsi (= 0.63.4-0)
+  - RNVectorIcons (8.1.0):
+    - React-Core
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga
@@ -297,6 +301,7 @@ DEPENDENCIES:
   - React-jsi (from `../node_modules/react-native/ReactCommon/jsi`)
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
+  - react-native-video (from `../node_modules/react-native-video`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
   - React-RCTBlob (from `../node_modules/react-native/Libraries/Blob`)
   - React-RCTImage (from `../node_modules/react-native/Libraries/Image`)
@@ -305,6 +310,7 @@ DEPENDENCIES:
   - React-RCTSettings (from `../node_modules/react-native/Libraries/Settings`)
   - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -354,6 +360,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsiexecutor"
   React-jsinspector:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
+  react-native-video:
+    :path: "../node_modules/react-native-video"
   React-RCTAnimation:
     :path: "../node_modules/react-native/Libraries/NativeAnimation"
   React-RCTBlob:
@@ -370,6 +378,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/Text"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNVectorIcons:
+    :path: "../node_modules/react-native-vector-icons"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -400,6 +410,7 @@ SPEC CHECKSUMS:
   React-jsi: 2fcfdb662799b6a2465a1ca727adb90d577f3c68
   React-jsiexecutor: a2d57cd174d11835a2e1369820664db94dc68244
   React-jsinspector: b02749ab9b71584a1a93e93bdf2b483179f5f4af
+  react-native-video: a6cae6575a8e86cdb5a3d6acf85ea9ea40a15e50
   React-RCTAnimation: 325e04d9a829ebf8199cf97dd93fbde540473ebe
   React-RCTBlob: ed6d47f5e46f71135c6d7c647c9c114641ee4ae4
   React-RCTImage: 38dbe05645489f5e6a18956c0b2456ec35f087b6
@@ -408,6 +419,7 @@ SPEC CHECKSUMS:
   React-RCTSettings: 5cd325d709b78968dcb6123c0d84ebbe16ff2b98
   React-RCTText: c14fecaa52f682ffc920d21dc06accee58ac0475
   ReactCommon: d8af14f3e586d78c8e8443e32fedb4c2eb745402
+  RNVectorIcons: 31cebfcf94e8cf8686eb5303ae0357da64d7a5a4
   Yoga: 1cb424a95ffa7e14cacce4c0ac07ba8e59393ebf
   YogaKit: 1e22bf2228b3a5ac8cc88965153061ae92c494b5
 
